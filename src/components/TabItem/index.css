@@ -1,0 +1,31 @@
+.list-style {
+  list-style-type: none;
+}
+
+.tab-btn {
+  height: auto;
+  width: 120px;
+  color: #7b8794;
+  font-size: 1.8rem;
+  font-weight: 500;
+  font-family: Roboto;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #7b8794;
+  padding: 10px;
+}
+
+.on-click-tabStyles {
+  color: #2563eb;
+  border-bottom: 2px solid #2563eb;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 768px) {
+  .tab-btn {
+    width: 80px;
+    font-size: 1.2rem;
+    padding: 5px;
+  }
+}
